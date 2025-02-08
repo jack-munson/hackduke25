@@ -2,37 +2,110 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  margin: auto;
+  padding: 20px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
+  width: 50%; /* Half of the screen width */
+  float: left; /* Floats the content section to the left */
+  padding: 20px;
+}
+
+.image {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+  background-image: url("./image/blueHome.jpeg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.header {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 20px; /* Adjust padding */
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Ensures content is aligned to the left */
+  margin-left: -30px; /* Shift it slightly to the left */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px; /* Adjust space between image and text */
 }
+
+.brand-name {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0; /* Remove any extra margin */
+
+}
+
+.hero {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.hero-title {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.hero-subtitle {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #4b5563;
+  margin-top: -10px;
+}
+
+.signup {
+  display: flex;
+  gap: 40px; /* Increase the gap to add more space between the buttons */
+  margin-top: 40px;
+
+}
+
+.findOrOffer {
+  font-family: sans-serif;
+
+  font-size: 20px; /* Adjust font size */
+  padding: 60px 40px; /* Makes the buttons larger */
+  background-color: #007BFF; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin-top: 40px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
