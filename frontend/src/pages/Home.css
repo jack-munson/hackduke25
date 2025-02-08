@@ -24,7 +24,7 @@ body {
 .image {
   display: flex;
   height: 100vh;
-  background-image: url("./image/blueHome.jpeg");
+  background-image: url("../image/blueHome.jpeg");
   background-size: cover;
   background-position: center;
 
