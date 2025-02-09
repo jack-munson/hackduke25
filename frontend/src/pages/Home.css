@@ -10,15 +10,15 @@ body {
 }
 
 .container {
-  margin: auto;
-  padding: 20px;
-  
+  /* margin: auto; */
+  height: 100vh;
 }
 
 .content {
   width: 50%; /* Half of the screen width */
+  height: 100%;
   float: left; /* Floats the content section to the left */
-  padding: 20px;
+  padding-left: 20px;
 }
 
 .image {
@@ -87,11 +87,11 @@ body {
   font-family: sans-serif;
 
   font-size: 20px; /* Adjust font size */
-  padding: 60px 40px; /* Makes the buttons larger */
+  padding: 20px 40px; /* Makes the buttons larger */
   background-color: #007BFF; /* Button color */
   color: white; /* Text color */
   border: none; /* No border */
-  border-radius: 20px; /* Rounded corners */
+  border-radius: 15px; /* Rounded corners */
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease; /* Smooth hover effect */
   margin-top: 40px;
