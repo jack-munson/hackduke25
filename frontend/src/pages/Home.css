@@ -27,6 +27,7 @@ body {
   background-image: url("../image/blueHome.jpeg");
   background-size: cover;
   background-position: center;
+  
 
 }
 
@@ -34,6 +35,7 @@ body {
   display: flex;
   align-items: center;
   padding: 10px 20px; /* Adjust padding */
+  
 }
 
 .logo {
@@ -59,7 +61,8 @@ body {
 
 .hero {
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 30px;
+
 }
 
 .hero-title {
@@ -78,16 +81,14 @@ body {
 
 .signup {
   display: flex;
-  gap: 40px; /* Increase the gap to add more space between the buttons */
   margin-top: 40px;
 
 }
 
 .findOrOffer {
   font-family: sans-serif;
-
   font-size: 20px; /* Adjust font size */
-  padding: 20px 40px; /* Makes the buttons larger */
+  padding: 40px 40px; /* Makes the buttons larger */
   background-color: #007BFF; /* Button color */
   color: white; /* Text color */
   border: none; /* No border */
@@ -95,7 +96,7 @@ body {
   cursor: pointer; /* Pointer cursor on hover */
   transition: background-color 0.3s ease; /* Smooth hover effect */
   margin-top: 40px;
-  
+  margin-left: 30px;
 }
 
 

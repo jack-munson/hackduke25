@@ -29,13 +29,8 @@ function Home() {
       <section className = "signup">
         <button 
           className = "findOrOffer"
-          onClick={() => navigate("/lookinglogin")}>
-            Find a Home
-        </button>
-        <button 
-          className = "findOrOffer"
-          onClick={() => navigate("/offeringlogin")}>
-            Offer a Home
+          onClick={() => navigate("/findhomes")}>
+            Get Started!
         </button>
       </section>
     </div>
